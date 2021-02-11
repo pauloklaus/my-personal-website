@@ -76,6 +76,10 @@
                         <br>copy text vue component
                     </li>
                     <li>
+                        <a href="https://github.com/pauloklaus/psk-typewriter">@psk-typewriter</a>
+                        <br>typewriter simulator vue component
+                    </li>
+                    <li>
                         <a href="https://github.com/pauloklaus/sgle-game">@sgle-game</a>
                         <br>to the <a href="https://pwn2.win/2018">Pwn2Win CTF 2018</a>
                     </li>
