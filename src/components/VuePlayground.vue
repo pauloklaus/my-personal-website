@@ -3,7 +3,7 @@
         <h2 class="font-weight-bold mb-4">Vue Components</h2>
 
         <b-row>
-            <b-col md="6" lg="4">
+            <b-col md="6" lg="4" class="px-5">
                 <p><span class="font-weight-bold">InputSearch</span>
                 <br><a href="https://github.com/pauloklaus/psk-inputsearch">github.com/pauloklaus/psk-inputsearch</a></p>
 
@@ -20,7 +20,7 @@
                 <br><a :href="url">{{ url }}</a></p>
             </b-col>
 
-            <b-col md="6" lg="4">
+            <b-col md="6" lg="4" class="px-5">
                 <p><span class="font-weight-bold">CopyAndShare</span>
                 <br><a href="https://github.com/pauloklaus/psk-copyandshare">github.com/pauloklaus/psk-copyandshare</a></p>
 
@@ -29,7 +29,7 @@
                 <p>{{ copied }}</p>
             </b-col>
 
-            <b-col md="6" lg="4">
+            <b-col md="6" lg="4" class="px-5">
                 <p><span class="font-weight-bold">Typewriter</span>
                 <br><a href="https://github.com/pauloklaus/psk-typewriter">github.com/pauloklaus/psk-typewriter</a></p>
 
