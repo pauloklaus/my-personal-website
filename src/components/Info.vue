@@ -69,7 +69,11 @@
                 <ul>
                     <li>
                         <a href="https://github.com/pauloklaus/psk-inputsearch">@psk-inputsearch</a>
-                        <br>a vue component
+                        <br>autocomplete vue component
+                    </li>
+                    <li>
+                        <a href="https://github.com/pauloklaus/psk-copyandshare">@psk-copyandshare</a>
+                        <br>copy text vue component
                     </li>
                     <li>
                         <a href="https://github.com/pauloklaus/sgle-game">@sgle-game</a>
@@ -78,10 +82,6 @@
                     <li>
                         <a href="https://github.com/pauloklaus/astrobot-game">@astrobot-game</a>
                         <br>to the <a href="https://pwn2.win/2019">Pwn2Win CTF 2019</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/pauloklaus/superpong">@superpong</a> 
-                        <br>learning JS with my kids
                     </li>
                 </ul>
             </b-col>
