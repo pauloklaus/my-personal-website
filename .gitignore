@@ -1,0 +1,12 @@
+.env.local
+.env.*.local
+
+.vscode
+*.conf
+*.log
+
+node_modules
+/dist
+/public/images
+*-lock.json
+*.zip
