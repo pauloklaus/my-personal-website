@@ -13,7 +13,7 @@
         <b-tabs>
             <template #tabs-end>
                 <b-nav-item class="ml-3" :active="$route.name == 'shell'" @click="$router.push({ name: 'shell' })">Shell</b-nav-item>
-                <b-nav-item :active="$route.name == 'vue-playground'" @click="$router.push({ name: 'vue-playground' })">Vue Playground</b-nav-item>
+                <b-nav-item :active="$route.name == 'playground'" @click="$router.push({ name: 'playground' })">Playground</b-nav-item>
                 <b-nav-item :active="$route.name == 'info'" @click="$router.push({ name: 'info' })">Info</b-nav-item>
             </template>
         </b-tabs>

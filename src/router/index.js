@@ -14,8 +14,8 @@ const routes = [
         component: Shell
     },
     {
-        path: "/vue-playground",
-        name: "vue-playground",
+        path: "/playground",
+        name: "playground",
         component: VuePlayground
     },
     {
