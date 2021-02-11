@@ -1,6 +1,6 @@
 <template>
     <div id="info">
-        <h2 class="font-weight-bold m-0">Paulo Sergio Klaus</h2>
+        <h2 class="font-weight-bold">Paulo Sergio Klaus</h2>
 
         <b-row>
             <b-col md="8">
