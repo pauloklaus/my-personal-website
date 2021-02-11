@@ -5,6 +5,7 @@ import router from "./router";
 import "./resources/axios";
 import "./resources/bootstrap-vue";
 import "./resources/psk-inputsearch";
+import "./resources/psk-copyandshare";
 
 Vue.config.productionTip = false;
 
