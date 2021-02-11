@@ -28,6 +28,16 @@
                 <p><my-copy-and-share label="Copy or browse to:" text="https://github.com" @copied="updateCopied" browseButton /></p>
                 <p>{{ copied }}</p>
             </b-col>
+
+            <b-col md="6" lg="4">
+                <p><span class="font-weight-bold">Typewriter</span>
+                <br><a href="https://github.com/pauloklaus/psk-typewriter">github.com/pauloklaus/psk-typewriter</a></p>
+
+                <p><my-type-writer text="What do you want to do today?" /></p>
+                <p><b-button @click="playExplore = true">Launch next...</b-button></p>
+                <p><my-type-writer :text="explore" v-if="playExplore" @finished="playSlow = true" /></p>
+                <p><my-type-writer text="And finally, slow motion text." v-if="playSlow" :timeout="200" /></p>
+            </b-col>
         </b-row>
     </div>
 </template>
@@ -42,7 +52,10 @@ export default {
             error: null,
             iconClick: 0,
             copyText: "Copy the number " + Math.random().toString().substr(2,6),
-            copied: ""
+            copied: "",
+            explore: "How about exploring the world of programming?",
+            playExplore: false,
+            playSlow: false
         }
     },
     methods: {
