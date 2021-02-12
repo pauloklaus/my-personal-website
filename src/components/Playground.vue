@@ -34,7 +34,7 @@
                 <p><a href="https://github.com/pauloklaus/psk-typewriter">github.com/pauloklaus/psk-typewriter</a></p>
 
                 <p><my-type-writer text="What do you want to do today?" /></p>
-                <p><b-button @click="playExplore = true">Launch next...</b-button></p>
+                <p><b-button @click="launchNext">Launch next...</b-button></p>
                 <p><my-type-writer :text="explore" v-if="playExplore" @finished="playSlow = true" /></p>
                 <p><my-type-writer text="And finally, slow motion text." v-if="playSlow" :timeout="200" /></p>
             </b-col>
@@ -75,6 +75,14 @@ export default {
                 this.copyText = "Now copy the number " + Math.random().toString().substr(2,6);
                 this.copied = "";
             }, 2000);
+        },
+        launchNext() {
+            this.playExplore = false;
+            this.playSlow = false;
+
+            setTimeout(() => {
+                this.playExplore = true;
+            }, 500);
         }
     }
 }
