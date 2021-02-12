@@ -2,21 +2,19 @@
     <div id="navbar">
         <div id="navbar-gradient"></div>
         <div id="navbar-content" class="d-flex align-items-top">
-            <div class="flex-fill">pauloklaus.com.br</div>
-            <div id="social-links">
+            <div class="flex-fill text-truncate">pauloklaus.com.br</div>
+            <div id="social-links" class="text-nowrap">
                 <a href="https://linkedin.com/in/pauloklaus"><b-img src="images/linkedin.png" /></a>
                 <a href="https://github.com/pauloklaus"><b-img src="images/github.png" /></a>
                 <a href="https://twitter.com/pauloklaus"><b-img src="images/twitter.png" /></a>
                 <a href="mailto:contato@pauloklaus.com.br"><b-img src="images/mail.png" /></a>
             </div>
         </div>
-        <b-tabs>
-            <template #tabs-end>
-                <b-nav-item class="ml-3" :active="$route.name == 'shell'" @click="$router.push({ name: 'shell' })">Shell</b-nav-item>
-                <b-nav-item :active="$route.name == 'playground'" @click="$router.push({ name: 'playground' })">Playground</b-nav-item>
-                <b-nav-item :active="$route.name == 'info'" @click="$router.push({ name: 'info' })">Info</b-nav-item>
-            </template>
-        </b-tabs>
+        <div id="navbar-tabs" class="text-nowrap px-3">
+            <b-button :variant="$route.name == 'shell' ? 'light' : ''" @click="$router.push({ name: 'shell' })">Shell</b-button>
+            <b-button :variant="$route.name == 'playground' ? 'light' : ''" @click="$router.push({ name: 'playground' })">Playground</b-button>
+            <b-button :variant="$route.name == 'info' ? 'light' : ''" @click="$router.push({ name: 'info' })">Info</b-button>
+        </div>
     </div>
 </template>
 
@@ -40,6 +38,13 @@ export default {
 }
 #navbar-content {
     padding: 20px;
+}
+#navbar-tabs {
+    overflow-x: auto;
+    border-bottom: 3px solid var(--light);
+}
+#navbar-tabs button {
+    margin: 0 2px;
 }
 #social-links a {
     padding: 0 5px;
