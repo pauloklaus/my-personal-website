@@ -114,7 +114,7 @@ export default {
                 {
                     timeout: 500,
                     action: () => {
-                        this.print(this.appName);
+                        this.print("psk\\v//ebshell#v0.1.337");
                     }
                 },
                 {
