@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 
 import Shell from "@/components/Shell";
 import Info from "@/components/Info";
-import VuePlayground from "@/components/VuePlayground";
+import Playground from "@/components/Playground";
 
 Vue.use(VueRouter)
 
@@ -16,7 +16,7 @@ const routes = [
     {
         path: "/playground",
         name: "playground",
-        component: VuePlayground
+        component: Playground
     },
     {
         path: "/info",
