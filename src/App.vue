@@ -1,7 +1,7 @@
 <template>
     <div id="app" class="bg-dark text-light">
         <Navbar />
-        <div id="router">
+        <div id="router" class="scrollbar">
             <router-view />
         </div>
     </div>
@@ -19,6 +19,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
 :root {
     --navbar-height: 150px;
+    --scrollbar: #f8f9fa22;
 }
 
 * {
@@ -33,18 +34,21 @@ button:focus {
 }
 
 #navbar {
-    height: ;
+    height: var(--navbar-height);
 }
 #router {
     height: calc(100vh - var(--navbar-height));
     padding: 10px 20px 0 20px;
     overflow-y: auto;
-    scrollbar-color: var(--text-light) var(--bg-dark);
 }
-#router::-webkit-scrollbar {
+
+.scrollbar {
+    scrollbar-color: var(--light) var(--scrollbar);
+}
+.scrollbar::-webkit-scrollbar {
     background: var(--bg-dark);
 }
-#router::-webkit-scrollbar-thumb {
-    background: var(--text-light);
+.scrollbar::-webkit-scrollbar-thumb {
+    background: var(--light);
 }
 </style>
