@@ -14,7 +14,7 @@
             <b-button :variant="$route.name == 'info' ? 'light' : ''" @click="$router.push({ name: 'info' })">Info</b-button>
             <b-button :variant="$route.name == 'shell' ? 'light' : ''" @click="$router.push({ name: 'shell' })">Shell</b-button>
             <b-button :variant="$route.name == 'playground' ? 'light' : ''" @click="$router.push({ name: 'playground' })">Playground</b-button>
-            <b-button :variant="$route.name == 'works' ? 'light' : ''" @click="$router.push({ name: 'works' })">Works</b-button>
+            <b-button :variant="$route.name == 'portfolio' ? 'light' : ''" @click="$router.push({ name: 'portfolio' })">Portfolio</b-button>
         </div>
     </div>
 </template>

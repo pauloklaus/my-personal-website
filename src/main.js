@@ -4,6 +4,7 @@ import router from "./router";
 
 import "./resources/axios";
 import "./resources/bootstrap-vue";
+import "./resources/vue-lazyload";
 import "./resources/psk-inputsearch";
 import "./resources/psk-copyandshare";
 import "./resources/psk-typewriter";

@@ -1,6 +1,6 @@
 {
     "name": "my-website",
-    "version": "0.3.1",
+    "version": "0.4.0",
     "description": "My personal website.",
     "author": {
         "name": "Paulo Sergio Klaus",
@@ -29,6 +29,8 @@
         "psk-inputsearch": "^0.1.11",
         "psk-typewriter": "^0.1.3",
         "vue": "^2.6.11",
+        "vue-image-lightbox": "^7.2.0",
+        "vue-lazyload": "^1.3.3",
         "vue-router": "^3.5.1"
     },
     "devDependencies": {
