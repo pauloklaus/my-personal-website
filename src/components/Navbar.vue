@@ -10,10 +10,10 @@
                 <a href="mailto:contato@pauloklaus.com.br"><b-img src="images/mail.png" /></a>
             </div>
         </div>
-        <div id="navbar-tabs" class="text-nowrap px-3">
+        <div id="navbar-tabs" class="scrollbar text-nowrap px-3">
+            <b-button :variant="$route.name == 'info' ? 'light' : ''" @click="$router.push({ name: 'info' })">Info</b-button>
             <b-button :variant="$route.name == 'shell' ? 'light' : ''" @click="$router.push({ name: 'shell' })">Shell</b-button>
             <b-button :variant="$route.name == 'playground' ? 'light' : ''" @click="$router.push({ name: 'playground' })">Playground</b-button>
-            <b-button :variant="$route.name == 'info' ? 'light' : ''" @click="$router.push({ name: 'info' })">Info</b-button>
         </div>
     </div>
 </template>
