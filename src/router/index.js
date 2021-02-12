@@ -12,22 +12,34 @@ const routes = [
     {
         path: "/info",
         name: "info",
-        component: Info
+        component: Info,
+        meta: {
+            title: "info"
+        }
     },
     {
         path: "/shell",
         name: "shell",
-        component: Shell
+        component: Shell,
+        meta: {
+            title: "shell"
+        }
     },
     {
         path: "/playground",
         name: "playground",
-        component: Playground
+        component: Playground,
+        meta: {
+            title: "playground"
+        }
     },
     {
         path: "/portfolio",
         name: "portfolio",
-        component: Portfolio
+        component: Portfolio,
+        meta: {
+            title: "portfolio"
+        }
     },
     {
         path: "*",
@@ -39,6 +51,17 @@ const router = new VueRouter({
     mode: "history",
     base: process.env.BASE_URL,
     routes
+});
+
+router.afterEach((to) => {
+    to.meta.path = to.path.endsWith("/") ? to.path.substr(0, to.path.length - 1) : to.path;
+
+    Vue.nextTick(() => {
+        document.title = process.env.VUE_APP_NAME;
+
+        if (to.meta.title)
+            document.title += " / " + to.meta.title;
+    });
 });
 
 export default router;
