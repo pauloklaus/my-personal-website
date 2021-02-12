@@ -4,16 +4,17 @@
         <div id="navbar-content" class="d-flex align-items-top">
             <div class="flex-fill text-truncate">pauloklaus.com.br</div>
             <div id="social-links" class="text-nowrap">
-                <a href="https://linkedin.com/in/pauloklaus"><b-img src="images/linkedin.png" /></a>
-                <a href="https://github.com/pauloklaus"><b-img src="images/github.png" /></a>
-                <a href="https://twitter.com/pauloklaus"><b-img src="images/twitter.png" /></a>
-                <a href="mailto:contato@pauloklaus.com.br"><b-img src="images/mail.png" /></a>
+                <a href="https://linkedin.com/in/pauloklaus"><b-img src="images/social/linkedin.png" /></a>
+                <a href="https://github.com/pauloklaus"><b-img src="images/social/github.png" /></a>
+                <a href="https://twitter.com/pauloklaus"><b-img src="images/social/twitter.png" /></a>
+                <a href="mailto:contato@pauloklaus.com.br"><b-img src="images/social/mail.png" /></a>
             </div>
         </div>
         <div id="navbar-tabs" class="scrollbar text-nowrap px-3">
             <b-button :variant="$route.name == 'info' ? 'light' : ''" @click="$router.push({ name: 'info' })">Info</b-button>
             <b-button :variant="$route.name == 'shell' ? 'light' : ''" @click="$router.push({ name: 'shell' })">Shell</b-button>
             <b-button :variant="$route.name == 'playground' ? 'light' : ''" @click="$router.push({ name: 'playground' })">Playground</b-button>
+            <b-button :variant="$route.name == 'works' ? 'light' : ''" @click="$router.push({ name: 'works' })">Works</b-button>
         </div>
     </div>
 </template>

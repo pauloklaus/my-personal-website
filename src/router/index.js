@@ -4,10 +4,16 @@ import VueRouter from "vue-router";
 import Shell from "@/components/Shell";
 import Info from "@/components/Info";
 import Playground from "@/components/Playground";
+import Works from "@/components/Works";
 
 Vue.use(VueRouter)
 
 const routes = [
+    {
+        path: "/info",
+        name: "info",
+        component: Info
+    },
     {
         path: "/shell",
         name: "shell",
@@ -19,9 +25,9 @@ const routes = [
         component: Playground
     },
     {
-        path: "/info",
-        name: "info",
-        component: Info
+        path: "/works",
+        name: "works",
+        component: Works
     },
     {
         path: "*",
