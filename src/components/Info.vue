@@ -45,7 +45,8 @@
                         <br><i>Setembro de 2002 até hoje</i>
 
                         <p>Network Admin / SysAdmin Linux (atual)
-                        <br>Criação e Manutenção de Sistemas Administrativos (PHP, MySQL, Mumps)</p>
+                        <br>Sistema para gestão de candidatos e vagas do Balcão de Empregos (PHP, MySQL)
+                        <br>Criação e manutenção de sistemas administrativos (PHP, MySQL, Mumps)</p>
                     </li>
                 </ul>
             </b-col>
