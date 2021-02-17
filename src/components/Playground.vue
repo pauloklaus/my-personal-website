@@ -2,7 +2,7 @@
     <div>
         <h2 class="font-weight-bold">Vue Components</h2>
 
-        <b-row>
+        <b-row class="mb-4">
             <b-col md="6" lg="4" class="px-4 mt-4">
                 <h4 class="font-weight-bold">InputSearch</h4>
                 <p><a href="https://github.com/pauloklaus/psk-inputsearch">github.com/pauloklaus/psk-inputsearch</a></p>
@@ -37,6 +37,17 @@
                 <p><b-button @click="launchNext">Launch next...</b-button></p>
                 <p><my-type-writer :text="explore" v-if="playExplore" @finished="playSlow = true" /></p>
                 <p><my-type-writer text="And finally, slow motion text." v-if="playSlow" :timeout="200" /></p>
+            </b-col>
+
+            <b-col md="6" lg="4" class="px-4 mt-4">
+                <h4 class="font-weight-bold">LoadingBar</h4>
+                <p><a href="https://github.com/pauloklaus/psk-loadingbar">github.com/pauloklaus/psk-loadingbar</a></p>
+
+                <p>Custom foreground color:
+                <my-loading-bar fgClass="bg-primary" /></p>
+
+                <p>Custom background and foreground color:
+                <my-loading-bar bgClass="bg-success" fgClass="bg-white" /></p>
             </b-col>
         </b-row>
     </div>

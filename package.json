@@ -1,6 +1,6 @@
 {
     "name": "my-website",
-    "version": "0.4.2",
+    "version": "0.5.0",
     "description": "My personal website.",
     "author": {
         "name": "Paulo Sergio Klaus",
@@ -27,6 +27,7 @@
         "http-status-codes": "^2.1.4",
         "psk-copyandshare": "^0.1.1",
         "psk-inputsearch": "^0.1.11",
+        "psk-loadingbar": "^0.1.2",
         "psk-typewriter": "^0.1.3",
         "vue": "^2.6.11",
         "vue-image-lightbox": "^7.2.0",

@@ -8,6 +8,7 @@ import "./resources/vue-lazyload";
 import "./resources/psk-inputsearch";
 import "./resources/psk-copyandshare";
 import "./resources/psk-typewriter";
+import "./resources/psk-loadingbar";
 
 Vue.config.productionTip = false;
 
