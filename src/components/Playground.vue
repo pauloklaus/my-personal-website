@@ -14,7 +14,7 @@
                 <p><label>Product:</label>
                 <my-input-search :url="inputUrl" textField="title" :axios="$http" @error="inputErrorResponse" v-model="inputValue" @change="inputSearchHasChanged" showActionButton @actionButtonClick="inputSearchButtonClick" waitingText="Wait, searching..." placeholder="Find a product..." /></p>
 
-                <p>inputValue: {{ inputValue }}</p>
+                <p>Value: {{ inputValue }}</p>
 
                 <p>Searching for products in this API:
                 <br><a :href="inputUrl">{{ inputUrl }}</a></p>
