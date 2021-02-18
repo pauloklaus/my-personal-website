@@ -3,7 +3,7 @@
         <b-col md="6" lg="4" class="px-4 mb-5">
             <h4 class="font-weight-bold">Phbit</h4>
             <p><a href="https://www.phbit.com.br" target="_blank">www.phbit.com.br</a>
-            <br><b-badge variant="primary">website</b-badge> <b-badge variant="success">no ar</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
+            <br><b-badge variant="primary">website</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
 
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
@@ -18,7 +18,7 @@
         <b-col md="6" lg="4" class="px-4 mb-5">
             <h4 class="font-weight-bold">Nexseg</h4>
             <p><a href="https://www.nexseg.com.br" target="_blank">www.nexseg.com.br</a>
-            <br><b-badge variant="primary">website</b-badge> <b-badge variant="success">no ar</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
+            <br><b-badge variant="primary">website</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
 
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
@@ -33,7 +33,7 @@
         <b-col md="6" lg="4" class="px-4 mb-5">
             <h4 class="font-weight-bold">Nexseg</h4>
             <p><a href="https://app.nexseg.com.br">app.nexseg.com.br</a>
-            <br><b-badge variant="warning">app</b-badge> <b-badge variant="success">no ar</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
+            <br><b-badge variant="warning">app</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
 
             <div class="portfolio-link text-center text-muted small">
                 <gallery :images="nexsegAppImages" class="card-gallery" />
@@ -44,7 +44,7 @@
         <b-col md="6" lg="4" class="px-4 mb-5">
             <h4 class="font-weight-bold">Nexsin</h4>
             <p><a href="https://www.nexsin.com.br">www.nexsin.com.br</a>
-            <br><b-badge variant="warning">app</b-badge> <b-badge variant="success">no ar</b-badge> <b-badge variant="light">php</b-badge> <b-badge variant="light">html</b-badge> <b-badge variant="light">js</b-badge> <b-badge variant="light">css</b-badge></p>
+            <br><b-badge variant="warning">app</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="light">php</b-badge> <b-badge variant="light">html</b-badge> <b-badge variant="light">js</b-badge> <b-badge variant="light">css</b-badge></p>
 
             <div class="portfolio-link text-center text-muted small">
                 <gallery :images="nexsinAppImages" class="card-gallery" />
@@ -55,7 +55,7 @@
         <b-col md="6" lg="4" class="px-4 mb-5">
             <h4 class="font-weight-bold">Affiance Consórcios</h4>
             <p><a href="https://www.affianceconsorcios.com.br">www.affianceconsorcios.com.br</a>
-            <br><b-badge variant="primary">website</b-badge> <b-badge variant="success">no ar</b-badge> <b-badge variant="light">php</b-badge> <b-badge variant="light">html</b-badge> <b-badge variant="light">js</b-badge> <b-badge variant="light">css</b-badge></p>
+            <br><b-badge variant="primary">website</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="light">php</b-badge> <b-badge variant="light">html</b-badge> <b-badge variant="light">js</b-badge> <b-badge variant="light">css</b-badge></p>
 
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
@@ -70,7 +70,7 @@
         <b-col md="6" lg="4" class="px-4 mb-5">
             <h4 class="font-weight-bold">Dataplain</h4>
             <p><a href="https://www.dataplain.com.br">www.dataplain.com.br</a>
-            <br><b-badge variant="primary">website</b-badge> <b-badge variant="success">no ar</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
+            <br><b-badge variant="primary">website</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
 
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
@@ -85,7 +85,7 @@
         <b-col md="6" lg="4" class="px-4 mb-5">
             <h4 class="font-weight-bold">Balcão de Empregos</h4>
             <p><a href="https://www.chapeco.com.br">www.chapeco.com.br</a>
-            <br><b-badge variant="warning">app</b-badge> <b-badge variant="success">no ar</b-badge> <b-badge variant="light">php</b-badge> <b-badge variant="light">html</b-badge> <b-badge variant="light">js</b-badge> <b-badge variant="light">css</b-badge></p>
+            <br><b-badge variant="warning">app</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="light">php</b-badge> <b-badge variant="light">html</b-badge> <b-badge variant="light">js</b-badge> <b-badge variant="light">css</b-badge></p>
 
             <div class="portfolio-link text-center text-muted small">
                 <gallery :images="balcaoEmpregosImages" class="card-gallery" />
