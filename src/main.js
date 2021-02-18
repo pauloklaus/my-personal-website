@@ -5,10 +5,12 @@ import router from "./router";
 import "./resources/axios";
 import "./resources/bootstrap-vue";
 import "./resources/vue-lazyload";
+
 import "./resources/psk-inputsearch";
 import "./resources/psk-copyandshare";
-import "./resources/psk-typewriter";
+import "./resources/psk-buttonmenu";
 import "./resources/psk-loadingbar";
+import "./resources/psk-typewriter";
 
 Vue.config.productionTip = false;
 

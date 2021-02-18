@@ -30,6 +30,16 @@
             </b-col>
 
             <b-col md="6" lg="4" class="px-4 mt-4">
+                <h4 class="font-weight-bold">ButtonMenu</h4>
+                <p><a href="https://github.com/pauloklaus/psk-buttonmenu">github.com/pauloklaus/psk-buttonmenu</a></p>
+
+                <my-button-menu class="my-2" @click="buttonClick1" />
+                <my-button-menu v-if="buttonVisible" class="my-2" :buttons="buttonList" @click="buttonClick2" />
+
+                <p>Selected: {{ buttonSelected }}</p>
+            </b-col>
+
+            <b-col md="6" lg="4" class="px-4 mt-4">
                 <h4 class="font-weight-bold">LoadingBar</h4>
                 <p><a href="https://github.com/pauloklaus/psk-loadingbar">github.com/pauloklaus/psk-loadingbar</a></p>
 
@@ -68,7 +78,14 @@ export default {
             
             typeExplore: "How about exploring the world of programming?",
             typePlayExplore: false,
-            typePlaySlow: false
+            typePlaySlow: false,
+
+            buttonSelected: null,
+            buttonVisible: false,
+            buttonList: [
+                { description: "Go!", variant: "light", myCustomProperty: "123" },
+                { description: "Stop?", variant: "danger", myCustomProperty: "456", anotherProperty: "789" }
+            ]
         }
     },
     methods: {
@@ -98,6 +115,14 @@ export default {
             setTimeout(() => {
                 this.typePlayExplore = true;
             }, 500);
+        },
+
+        buttonClick1(button) {
+            this.buttonSelected = button;
+            this.buttonVisible = true;
+        },
+        buttonClick2(button) {
+            this.buttonSelected = button;
         }
     }
 }
