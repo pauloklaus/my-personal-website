@@ -7,36 +7,26 @@
                 <h4 class="font-weight-bold">InputSearch</h4>
                 <p><a href="https://github.com/pauloklaus/psk-inputsearch">github.com/pauloklaus/psk-inputsearch</a></p>
 
-                <p>Changes: {{ change }}
-                <br>Button clicks: {{ iconClick }}
-                <br>Error: {{ error }}</p>
+                <p>Changes: {{ inputChange }}
+                <br>Button clicks: {{ inputClick }}
+                <br>Error: {{ inputError }}</p>
 
                 <p><label>Product:</label>
-                <my-input-search :url="url" textField="title" :axios="$http" @error="errorResponse" v-model="value" @change="hasChanged" showActionButton @actionButtonClick="buttonClick" waitingText="Wait, searching..." placeholder="Find a product..." /></p>
+                <my-input-search :url="inputUrl" textField="title" :axios="$http" @error="inputErrorResponse" v-model="inputValue" @change="inputSearchHasChanged" showActionButton @actionButtonClick="inputSearchButtonClick" waitingText="Wait, searching..." placeholder="Find a product..." /></p>
 
-                <p>Value: {{ value }}</p>
+                <p>inputValue: {{ inputValue }}</p>
 
                 <p>Searching for products in this API:
-                <br><a :href="url">{{ url }}</a></p>
+                <br><a :href="inputUrl">{{ inputUrl }}</a></p>
             </b-col>
 
             <b-col md="6" lg="4" class="px-4 mt-4">
                 <h4 class="font-weight-bold">CopyAndShare</h4>
                 <p><a href="https://github.com/pauloklaus/psk-copyandshare">github.com/pauloklaus/psk-copyandshare</a></p>
 
-                <p><my-copy-and-share label="Copy:" :text="copyText" @copied="updateCopied" /></p>
-                <p><my-copy-and-share label="Copy or browse to:" text="https://github.com" @copied="updateCopied" browseButton /></p>
-                <p>{{ copied }}</p>
-            </b-col>
-
-            <b-col md="6" lg="4" class="px-4 mt-4">
-                <h4 class="font-weight-bold">Typewriter</h4>
-                <p><a href="https://github.com/pauloklaus/psk-typewriter">github.com/pauloklaus/psk-typewriter</a></p>
-
-                <p><my-type-writer text="What do you want to do today?" /></p>
-                <p><b-button @click="launchNext">Launch next...</b-button></p>
-                <p><my-type-writer :text="explore" v-if="playExplore" @finished="playSlow = true" /></p>
-                <p><my-type-writer text="And finally, slow motion text." v-if="playSlow" :timeout="200" /></p>
+                <p><my-copy-and-share label="Copy:" :text="copyText" @copied="copyNotify" /></p>
+                <p><my-copy-and-share label="Copy or browse to:" text="https://github.com" @copied="copyNotify" browseButton /></p>
+                <p>{{ copyCopied }}</p>
             </b-col>
 
             <b-col md="6" lg="4" class="px-4 mt-4">
@@ -49,6 +39,16 @@
                 <p>Custom background and foreground color:
                 <my-loading-bar bgClass="bg-success" fgClass="bg-white" /></p>
             </b-col>
+
+            <b-col md="6" lg="4" class="px-4 mt-4">
+                <h4 class="font-weight-bold">TypeWriter</h4>
+                <p><a href="https://github.com/pauloklaus/psk-typewriter">github.com/pauloklaus/psk-typewriter</a></p>
+
+                <p><my-type-writer text="What do you want to do today?" /></p>
+                <p><b-button @click="typeLaunchNext">Launch next...</b-button></p>
+                <p><my-type-writer :text="typeExplore" v-if="typePlayExplore" @finished="typePlaySlow = true" /></p>
+                <p><my-type-writer text="And finally, slow motion text." v-if="typePlaySlow" :timeout="200" /></p>
+            </b-col>
         </b-row>
     </div>
 </template>
@@ -57,42 +57,46 @@
 export default {
     data() {
         return {
-            url: "https://fakestoreapi.com/products",
-            value: {},
-            change: 0,
-            error: null,
-            iconClick: 0,
+            inputUrl: "https://fakestoreapi.com/products",
+            inputValue: {},
+            inputChange: 0,
+            inputError: null,
+            inputClick: 0,
+
             copyText: "Copy the number " + Math.random().toString().substr(2,6),
-            copied: "",
-            explore: "How about exploring the world of programming?",
-            playExplore: false,
-            playSlow: false
+            copyCopied: "",
+            
+            typeExplore: "How about exploring the world of programming?",
+            typePlayExplore: false,
+            typePlaySlow: false
         }
     },
     methods: {
-        errorResponse(response) {
-            this.error = response;
+        inputErrorResponse(response) {
+            this.inputError = response;
         },
-        hasChanged() {
-            this.change++;
+        inputSearchHasChanged() {
+            this.inputChange++;
         },
-        buttonClick() {
-            this.iconClick++;
+        inputSearchButtonClick() {
+            this.inputClick++;
         },
-        updateCopied() {
-            this.copied = "Text copied!";
+
+        copyNotify() {
+            this.copyCopied = "Text copied!";
 
             setTimeout(() => {
                 this.copyText = "Now copy the number " + Math.random().toString().substr(2,6);
-                this.copied = "";
+                this.copyCopied = "";
             }, 2000);
         },
-        launchNext() {
-            this.playExplore = false;
-            this.playSlow = false;
+
+        typeLaunchNext() {
+            this.typePlayExplore = false;
+            this.typePlaySlow = false;
 
             setTimeout(() => {
-                this.playExplore = true;
+                this.typePlayExplore = true;
             }, 500);
         }
     }
