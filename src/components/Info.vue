@@ -117,7 +117,7 @@
             <br><a href="https://www.vegacs.com.br">www.vegacs.com.br</a>
             <br>Criação de Sistema para Gestão de Imobiliárias (Delphi)</li>
 
-            <li><strong>Ativa Brasil Perícias e Avaliações (2005-2015)</strong>
+            <li><strong>Ativa Brasil Perícias e Avaliações (2004-2015)</strong>
             <br><a href="https://www.ativapericias.com.br">www.ativapericias.com.br</a>
             <br>Criação de Sistema para Vistoria de Seguros (Delphi)</li>
 
