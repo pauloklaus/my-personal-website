@@ -17,7 +17,7 @@
                         <br>Servidor de Banco de dados PostgreSQL</p>
 
                         <p>Programação:
-                        <br>Frontend VueJS</p>
+                        <br>Frontend VueJS, API/REST</p>
                     </li>
 
                     <li>
@@ -35,8 +35,8 @@
                         <br>Frontend PHP, TWIG, HTML, CSS, JS, jQuery
                         <br>Banco de dados MySQL</p>
 
-                        <p>Tecnologias adicionais:
-                        <br>Armazenamento de fotos e documentos em object storage</p>
+                        <p>Tecnologias/conceitos aplicados:
+                        <br>API/REST, arquivos armazenados em object storage</p>
                     </li>
                     
                     <li>
