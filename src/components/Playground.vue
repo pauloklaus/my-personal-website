@@ -14,10 +14,26 @@
                 <p><label>Product:</label>
                 <my-input-search :url="inputUrl" textField="title" :axios="$http" @error="inputErrorResponse" v-model="inputValue" @change="inputSearchHasChanged" showActionButton @actionButtonClick="inputSearchButtonClick" waitingText="Wait, searching..." placeholder="Find a product..." /></p>
 
-                <p>Value: {{ inputValue }}</p>
+                <p>Click at the right button to display details.</p>
 
                 <p>Searching for products in this API:
                 <br><a :href="inputUrl">{{ inputUrl }}</a></p>
+
+                <b-modal id="inputModal" :title="inputValue.title" scrollable ok-only>
+                    <div class="d-flex justify-content-between mb-3">
+                        <div>{{ inputValue.category }}</div>
+                        <div class="font-weight-bold">U$ {{ inputValue.price }}</div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-3">
+                        <b-img class="pr-3" :src="inputValue.image" width="100%" height="100%" />
+                        <div>{{ inputValue.description }}</div>
+                    </div>
+
+                    <b-card>
+                        <pre>Value: {{ inputValue }}</pre>
+                    </b-card>
+                </b-modal>
             </b-col>
 
             <b-col md="6" lg="4" class="px-4 mt-4">
@@ -97,6 +113,7 @@ export default {
         },
         inputSearchButtonClick() {
             this.inputClick++;
+            this.$bvModal.show("inputModal");
         },
 
         copyNotify() {
