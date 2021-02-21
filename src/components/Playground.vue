@@ -52,7 +52,7 @@
                 <my-button-menu class="my-2" @click="buttonClick1" />
                 <my-button-menu v-if="buttonVisible" class="my-2" :buttons="buttonList" @click="buttonClick2" />
 
-                <p>Selected: {{ buttonSelected }}</p>
+                Selected: <pre class="text-white">{{ buttonSelected }}</pre>
             </b-col>
 
             <b-col md="6" lg="4" class="px-4 mt-4">
