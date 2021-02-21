@@ -19,7 +19,7 @@
                 <p>Searching for products in this API:
                 <br><a :href="inputUrl">{{ inputUrl }}</a></p>
 
-                <b-modal id="inputModal" :title="inputValue.title" scrollable ok-only>
+                <b-modal id="inputModal" v-if="inputValue" :title="inputValue.title" scrollable ok-only>
                     <div class="d-flex justify-content-between mb-3">
                         <div>{{ inputValue.category }}</div>
                         <div class="font-weight-bold">U$ {{ inputValue.price }}</div>
