@@ -21,14 +21,14 @@ CONFIG=deploy.conf
 ping -c1 $REMOTE_HOST \
 	|| error "Server unreachable '$REMOTE_HOST'."
 
-ssh $REMOTE_HOST "[ -f $REMOTE_DIR/$DIST_ZIP ] && rm $REMOTE_DIR/$DIST_ZIP"
+ssh $REMOTE_USER@$REMOTE_HOST "[ -f $REMOTE_DIR/$DIST_ZIP ] && rm $REMOTE_DIR/$DIST_ZIP"
 
-scp $DIST_ZIP $REMOTE_HOST:./$REMOTE_DIR \
+scp $DIST_ZIP $REMOTE_USER@$REMOTE_HOST:./$REMOTE_DIR \
 	|| error "Error copying '$DIST_ZIP' to the server '$REMOTE_HOST'."
 
 SERIAL=$(date +%Y%m%d-%H%M%S)
 
-ssh $REMOTE_HOST "cd $REMOTE_DIR && mv $REMOTE_TARGET $REMOTE_TARGET.$SERIAL && unzip $DIST_ZIP && mv $DIST_DIR $REMOTE_TARGET" \
+ssh $REMOTE_USER@$REMOTE_HOST "cd $REMOTE_DIR && mv $REMOTE_TARGET $REMOTE_TARGET.$SERIAL && unzip $DIST_ZIP && mv $DIST_DIR $REMOTE_TARGET" \
 	|| error "Error uncompressing file '$DIST_ZIP'."
 
 echo
