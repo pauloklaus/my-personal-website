@@ -52,17 +52,6 @@
             </b-col>
 
             <b-col>
-                <h4>Formação</h4>
-                <ul>
-                    <li><strong>Universidade do Contestado (Convênio UFSC/SC)</strong>
-                    <br>Especialização em Redes de Computadores e Sistemas Distribuídos
-                    <br>2001 - 2002</li>
-
-                    <li><strong>Universidade do Contestado (Concórdia/SC)</strong>
-                    <br>Bacharel em Sistemas de Informação
-                    <br>1998 - 2001</li>
-                </ul>
-
                 <h4>Habilidades</h4>
                 <p>#vuejs #php #twig #html #css #js #jquery #twitter-bootstrap #uikit #sql #git #linux #ssh #shell #shellscript #openvpn #cloudflare #digitalocean</p>
 
@@ -91,45 +80,70 @@
                 </ul>
             </b-col>
         </b-row>
-        <h4>Outras Atuações</h4>
+
+        <h4>Cursos/Graduações</h4>
         <ul>
-            <li><strong>Nexseg (2020)</strong>
-            <br><a href="https://www.nexseg.com.br">nexseg.com.br</a>
-            <br>Criação de website (VueJS)
-            </li>
+            <li><strong>Escola Superior de Redes/RNP / Convênio UFRGS</strong>
+            <br>Gerência de Redes de Computadores
+            <br>2010</li>
 
-            <li><strong>Phbit Sistemas (2020)</strong>
-            <br><a href="https://www.phbit.com.br">phbit.com.br</a>
-            <br>Criação de website (VueJS)
-            </li>
+            <li><strong>Universidade do Contestado / Convênio UFSC/SC</strong>
+            <br>Especialização em Redes de Computadores e Sistemas Distribuídos
+            <br>2001 - 2002</li>
 
-            <li><strong>Dataplain (2019)</strong>
-            <br><a href="https://www.dataplain.com.br">dataplain.com.br</a>
-            <br>Criação de website (VueJS)
-            </li>
-
-            <li><strong>Affiance Consórcios (2019)</strong>
-            <br><a href="https://www.affianceconsorcios.com.br">affianceconsorcios.com.br</a>
-            <br>Criação de website (HTML, CSS, JS)
-            </li>
-
-            <li><strong>Vega Consultoria e Sistemas (2005-2009)</strong>
-            <br><a href="https://www.vegacs.com.br">www.vegacs.com.br</a>
-            <br>Criação de Sistema para Gestão de Imobiliárias (Delphi)</li>
-
-            <li><strong>Ativa Brasil Perícias e Avaliações (2004-2015)</strong>
-            <br><a href="https://www.ativapericias.com.br">www.ativapericias.com.br</a>
-            <br>Criação de Sistema para Vistoria de Seguros (Delphi)</li>
-
-            <li><strong>Digisat Tecnologia (2001)</strong>
-            <br><a href="https://www.digisat.com.br">https://www.digisat.com.br</a>
-            <br>Suporte Técnico Sistema Comercial</li>
-
-            <li><strong>Unilog Logística S/A (2000)</strong>
-            <br>Suporte Técnico
-            <br>Manutenção em Redes de Computadores
-            <br>Manutenção Servidor Dell/RedHat/Oracle</li>
+            <li><strong>Universidade do Contestado (Concórdia/SC)</strong>
+            <br>Bacharel em Sistemas de Informação
+            <br>1998 - 2001</li>
         </ul>
+
+        <h4>Outras Atuações</h4>
+        <b-row>
+            <b-col md="8">
+                <ul>
+                    <li><strong>EpicLeetTeam (equipe de segurança da informação)</strong>
+                    <br>Como participante em competições (2014, <a href="https://epicleet.team">https://epicleet.team</a>)
+                    <br>Elaboração de desafios em Python para competições internacionais (2016-2020, <a href="https://pwn2win.party">https://pwn2win.party</a>)
+
+                    <li><strong>Uceff Faculdades (2011)</strong>
+                    <br><a href="https://www.uceff.edu.br/uceff/chapeco">https://www.uceff.edu.br/uceff/chapeco</a>
+                    <br>Professor da cadeira de Simulação de Redes do curso de graduação em
+                    <br>Redes de Computadores</li>
+
+                    <li><strong>Vega Consultoria e Sistemas (2005-2009)</strong>
+                    <br><a href="https://www.vegacs.com.br">www.vegacs.com.br</a>
+                    <br>Criação de Sistema para Gestão de Imobiliárias (Delphi)</li>
+
+                    <li><strong>Ativa Brasil Perícias e Avaliações (2004-2015)</strong>
+                    <br><a href="https://www.ativapericias.com.br">www.ativapericias.com.br</a>
+                    <br>Criação de Sistema para Vistoria de Seguros (Delphi)</li>
+
+                    <li><strong>Senac Concórdia (2001)</strong>
+                    <br><a href="https://portal.sc.senac.br">https://portal.sc.senac.br</a>
+                    <br>Professor de Sistemas Operacionais do Curso Técnico de Informática</li>
+
+                    <li><strong>Digisat Tecnologia (2001)</strong>
+                    <br><a href="https://www.digisat.com.br">https://www.digisat.com.br</a>
+                    <br>Suporte Técnico Sistema Comercial</li>
+
+                    <li><strong>Unilog Logística S/A (2000)</strong>
+                    <br>Suporte Técnico
+                    <br>Manutenção em Redes de Computadores
+                    <br>Manutenção Servidor Dell/RedHat/Oracle</li>
+                </ul>
+            </b-col>
+
+            <b-col>
+                <ul>
+                    <li>Desenvolvimento de websites em VueJS e Bootstrap
+                    <br><a href="https://nexseg.com.br">https://nexseg.com.br</a>
+                    <br><a href="https://phbit.com.br">https://phbit.com.br</a>
+                    <br><a href="https://dataplain.com.br">https://dataplain.com.br</a></li>
+                    
+                    <li>Desenvolvimento de websites em PHP, HTML, CSS, JS
+                    <br><a href="https://affianceconsorcios.com.br">https://affianceconsorcios.com.br</a></li>
+                </ul>
+            </b-col>
+        </b-row>
 
         <h4>Voltando ainda mais no tempo :)</h4>
         <ul>
