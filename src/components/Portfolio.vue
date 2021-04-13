@@ -8,7 +8,7 @@
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
                     <a href="https://www.phbit.com.br" target="_blank">
-                        <b-img src="images/portfolio/phbit-website.png" class="card-width-image" />
+                        <cl-img src="portfolio/phbit-website.png" class="card-width-image" />
                     </a>
                 </div>
                 Click/touch to browse
@@ -23,7 +23,7 @@
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
                     <a href="https://www.nexseg.com.br" target="_blank">
-                        <b-img src="images/portfolio/nexseg-website.jpg" class="card-width-image" />
+                        <cl-img src="portfolio/nexseg-website.jpg" class="card-width-image" />
                     </a>
                 </div>
                 Click/touch to browse
@@ -60,7 +60,7 @@
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
                     <a href="https://www.affianceconsorcios.com.br">
-                        <b-img src="images/portfolio/affiance-consorcios-website.png" class="card-width-image" />
+                        <cl-img src="portfolio/affiance-consorcios-website.png" class="card-width-image" />
                     </a>
                 </div>
                 Click/touch to browse
@@ -75,7 +75,7 @@
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
                     <a href="https://www.dataplain.com.br">
-                        <b-img src="images/portfolio/dataplain-website.jpg" class="card-width-image" />
+                        <cl-img src="portfolio/dataplain-website.jpg" class="card-width-image" />
                     </a>
                 </div>
                 Click/touch to browse
@@ -96,60 +96,61 @@
 </template>
 
 <script>
+import CloudinaryImage from "@/components/CloudinaryImage";
 import Gallery from "@/components/Gallery";
 
 export default {
-    components: { Gallery },
+    components: { Gallery, clImg: CloudinaryImage },
     data() {
         return {
             nexsegAppImages: [
                 {
-                    src: "images/portfolio/nexseg-app-login.png",
-                    thumb: "images/portfolio/nexseg-app-login.png"
+                    src: process.env.VUE_APP_CLOUDINARY + "portfolio/nexseg-app-login.png",
+                    thumb: process.env.VUE_APP_CLOUDINARY + "portfolio/nexseg-app-login.png"
                 },
                 {
-                    src: "images/portfolio/nexseg-app-dashboard.png",
-                    thumb: "images/portfolio/nexseg-app-dashboard.png"
+                    src: process.env.VUE_APP_CLOUDINARY + "portfolio/nexseg-app-dashboard.png",
+                    thumb: process.env.VUE_APP_CLOUDINARY + "portfolio/nexseg-app-dashboard.png"
                 },
                 {
-                    src: "images/portfolio/nexseg-app-gerencial.png",
-                    thumb: "images/portfolio/nexseg-app-gerencial.png"
+                    src: process.env.VUE_APP_CLOUDINARY + "portfolio/nexseg-app-gerencial.png",
+                    thumb: process.env.VUE_APP_CLOUDINARY + "portfolio/nexseg-app-gerencial.png"
                 },
                 {
-                    src: "images/portfolio/nexseg-app-form.png",
-                    thumb: "images/portfolio/nexseg-app-form.png"
+                    src: process.env.VUE_APP_CLOUDINARY + "portfolio/nexseg-app-form.png",
+                    thumb: process.env.VUE_APP_CLOUDINARY + "portfolio/nexseg-app-form.png"
                 },
                 {
-                    src: "images/portfolio/nexseg-app-tarefas.png",
-                    thumb: "images/portfolio/nexseg-app-tarefas.png"
+                    src: process.env.VUE_APP_CLOUDINARY + "portfolio/nexseg-app-tarefas.png",
+                    thumb: process.env.VUE_APP_CLOUDINARY + "portfolio/nexseg-app-tarefas.png"
                 },
             ],
             nexsinAppImages: [
                 {
-                    src: "images/portfolio/fact-app-dashboard.png",
-                    thumb: "images/portfolio/fact-app-dashboard.png"
+                    src: process.env.VUE_APP_CLOUDINARY + "portfolio/fact-app-dashboard.png",
+                    thumb: process.env.VUE_APP_CLOUDINARY + "portfolio/fact-app-dashboard.png"
                 },
                 {
-                    src: "images/portfolio/fact-app-gerencial.png",
-                    thumb: "images/portfolio/fact-app-gerencial.png"
+                    src: process.env.VUE_APP_CLOUDINARY + "portfolio/fact-app-gerencial.png",
+                    thumb: process.env.VUE_APP_CLOUDINARY + "portfolio/fact-app-gerencial.png"
                 },
                 {
-                    src: "images/portfolio/fact-app-form.png",
-                    thumb: "images/portfolio/fact-app-form.png"
+                    src: process.env.VUE_APP_CLOUDINARY + "portfolio/fact-app-form.png",
+                    thumb: process.env.VUE_APP_CLOUDINARY + "portfolio/fact-app-form.png"
                 },
                 {
-                    src: "images/portfolio/fact-app-fotos.png",
-                    thumb: "images/portfolio/fact-app-fotos.png"
+                    src: process.env.VUE_APP_CLOUDINARY + "portfolio/fact-app-fotos.png",
+                    thumb: process.env.VUE_APP_CLOUDINARY + "portfolio/fact-app-fotos.png"
                 }
             ],
             balcaoEmpregosImages: [
                 {
-                    src: "images/portfolio/balcao-empregos-app-gerencial.png",
-                    thumb: "images/portfolio/balcao-empregos-app-gerencial.png"
+                    src: process.env.VUE_APP_CLOUDINARY + "portfolio/balcao-empregos-app-gerencial.png",
+                    thumb: process.env.VUE_APP_CLOUDINARY + "portfolio/balcao-empregos-app-gerencial.png"
                 },
                 {
-                    src: "images/portfolio/balcao-empregos-app-form.png",
-                    thumb: "images/portfolio/balcao-empregos-app-form.png"
+                    src: process.env.VUE_APP_CLOUDINARY + "portfolio/balcao-empregos-app-form.png",
+                    thumb: process.env.VUE_APP_CLOUDINARY + "portfolio/balcao-empregos-app-form.png"
                 }
             ]
         }
