@@ -12,7 +12,7 @@
                 <br>Error: {{ inputError }}</p>
 
                 <p><label>Product:</label>
-                <my-input-search :url="inputUrl" textField="title" :axios="$http" @error="inputErrorResponse" v-model="inputValue" @change="inputSearchHasChanged" showActionButton @actionButtonClick="inputSearchButtonClick" waitingText="Wait, searching..." placeholder="Find a product..." /></p>
+                <my-input-search textField="title" :searchMethod="inputSearchRun" @error="inputErrorResponse" v-model="inputValue" @change="inputSearchHasChanged" showActionButton @actionButtonClick="inputSearchButtonClick" waitingText="Wait, searching..." placeholder="Find a product..." /></p>
 
                 <p>Click at the right button to display details.</p>
 
@@ -115,7 +115,16 @@ export default {
             this.inputClick++;
             this.$bvModal.show("inputModal");
         },
-
+        async inputSearchRun(term) {
+            try {
+                const searchResponse = await this.$http.get(this.inputUrl, { params: { term: term }});
+                return Array.isArray(searchResponse.data) ? searchResponse.data : null;
+            }
+            catch (error) {
+                this.inputError = error;
+            }
+            return null;
+        },
         copyNotify() {
             this.copyCopied = "Text copied!";
 
