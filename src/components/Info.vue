@@ -53,7 +53,7 @@
 
             <b-col>
                 <h4>Habilidades</h4>
-                <p>#vuejs #php #twig #html #css #js #jquery #twitter-bootstrap #uikit #sql #git #linux #ssh #shell #shellscript #openvpn #cloudflare #digitalocean</p>
+                <p>#vuejs #php #twig #html #css #js #jquery #bootstrap #uikit #sql #nosql #firebase #git #linux #ssh #shell #shellscript #openvpn #cloudflare #digitalocean</p>
 
                 <h4>Projetos Relevantes</h4>
                 <ul>
@@ -76,6 +76,10 @@
                     <li>
                         <a href="https://github.com/pauloklaus/astrobot-game">@astrobot-game</a>
                         <br>to the <a href="https://pwn2.win/2019">Pwn2Win CTF 2019</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/pauloklaus/realstate-concept">@realstate-concept</a>
+                        <br>projeto conceitual para explorar recursos do VueJS
                     </li>
                 </ul>
             </b-col>
@@ -100,6 +104,14 @@
         <b-row>
             <b-col md="8">
                 <ul>
+                    <li><strong>Realstate Concept</strong>
+                    <br>Projeto conceitual para listar, pesquisar e selecionar imóveis para compartilhá-los através de um link.
+                    <br>Feito em VueJS com VueX, VueRouter, Bootstrap, Firebase (realtime database e storage) e meu próprio componente <a href="https://www.npmjs.com/package/psk-copyandshare">psk-copyandshare</a> disponível via npm.
+                    <br>
+                    <br>Código fonte: <a href="https://github.com/pauloklaus/realstate-concept">github.com/pauloklaus/realstate-concept</a>
+                    <br>Publicado via <a href="https://pages.cloudflare.com">Cloudflare Pages</a>: <a href="https://realstate-concept.pages.dev">realstate-concept.pages.dev</a>
+                    </li>
+
                     <li><strong>EpicLeetTeam (equipe de segurança da informação)</strong>
                     <br>Como participante em competições (2014, <a href="https://epicleet.team">https://epicleet.team</a>)
                     <br>Elaboração de desafios em Python para competições internacionais (2016-2020, <a href="https://pwn2win.party">https://pwn2win.party</a>)
