@@ -1,6 +1,23 @@
 <template>
     <b-row>
         <b-col md="6" lg="4" class="px-4 mb-5">
+            <h4 class="font-weight-bold">RealState Concept</h4>
+            <p><a href="https://realstate-concept.pages.dev" target="_blank">realstate-concept.pages.dev</a>
+            <br><b-badge variant="warning">webapp</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
+
+            <div class="portfolio-link text-center text-muted small">
+                <div class="card-preview">
+                    <a href="https://realstate-concept.pages.dev" target="_blank">
+                        <cl-img src="portfolio/realstate-concept-app.png" class="card-width-image" />
+                    </a>
+                </div>
+                Click/touch to browse
+            </div>
+
+            <p class="text-muted mt-3">Aplicação web conceito onde aplico VueX, Vue-Router, Bootstrap e Firebase (RealTime Database e Storage).</p>
+        </b-col>
+
+        <b-col md="6" lg="4" class="px-4 mb-5">
             <h4 class="font-weight-bold">Phbit</h4>
             <p><a href="https://www.phbit.com.br" target="_blank">www.phbit.com.br</a>
             <br><b-badge variant="primary">website</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
@@ -33,23 +50,27 @@
         <b-col md="6" lg="4" class="px-4 mb-5">
             <h4 class="font-weight-bold">Nexseg</h4>
             <p><a href="https://app.nexseg.com.br">app.nexseg.com.br</a>
-            <br><b-badge variant="warning">app</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
+            <br><b-badge variant="warning">webapp</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
 
             <div class="portfolio-link text-center text-muted small">
                 <gallery :images="nexsegAppImages" class="card-gallery" />
                 Click/touch to enlarge
             </div>
+
+            <p class="text-muted mt-3">Aplicação web para corretores de seguros, com cotação online, gestão dos procedimentos de proposta e sinistro.</p>
         </b-col>
 
         <b-col md="6" lg="4" class="px-4 mb-5">
             <h4 class="font-weight-bold">Nexsin</h4>
             <p><a href="https://www.nexsin.com.br">www.nexsin.com.br</a>
-            <br><b-badge variant="warning">app</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="light">php</b-badge> <b-badge variant="light">html</b-badge> <b-badge variant="light">js</b-badge> <b-badge variant="light">css</b-badge></p>
+            <br><b-badge variant="warning">webapp</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="light">php</b-badge> <b-badge variant="light">html</b-badge> <b-badge variant="light">js</b-badge> <b-badge variant="light">css</b-badge></p>
 
             <div class="portfolio-link text-center text-muted small">
                 <gallery :images="nexsinAppImages" class="card-gallery" />
                 Click/touch to enlarge
             </div>
+
+            <p class="text-muted mt-3">Aplicação web para reguladores e vistoriadores de seguros.</p>
         </b-col>
 
         <b-col md="6" lg="4" class="px-4 mb-5">
@@ -85,7 +106,7 @@
         <b-col md="6" lg="4" class="px-4 mb-5">
             <h4 class="font-weight-bold">Balcão de Empregos</h4>
             <p><a href="https://www.chapeco.com.br">www.chapeco.com.br</a>
-            <br><b-badge variant="warning">app</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="light">php</b-badge> <b-badge variant="light">html</b-badge> <b-badge variant="light">js</b-badge> <b-badge variant="light">css</b-badge></p>
+            <br><b-badge variant="warning">webapp</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="light">php</b-badge> <b-badge variant="light">html</b-badge> <b-badge variant="light">js</b-badge> <b-badge variant="light">css</b-badge></p>
 
             <div class="portfolio-link text-center text-muted small">
                 <gallery :images="balcaoEmpregosImages" class="card-gallery" />
