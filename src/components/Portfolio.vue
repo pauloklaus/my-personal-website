@@ -105,7 +105,7 @@
 
         <b-col md="6" lg="4" class="px-4 mb-5">
             <h4 class="font-weight-bold">Balcão de Empregos</h4>
-            <p><a href="https://www.chapeco.com.br">www.chapeco.com.br</a>
+            <p><a href="https://web.chapeco.com.br/balcao">web.chapeco.com.br/balcao</a>
             <br><b-badge variant="warning">webapp</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="light">php</b-badge> <b-badge variant="light">html</b-badge> <b-badge variant="light">js</b-badge> <b-badge variant="light">css</b-badge></p>
 
             <div class="portfolio-link text-center text-muted small">
