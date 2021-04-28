@@ -82,6 +82,11 @@
                         <br>projeto conceitual para explorar recursos do VueJS
                     </li>
                 </ul>
+
+                <h4>Imagens no Docker Hub</h4>
+                <ul>
+                    <li><a href="https://hub.docker.com/u/pauloklaus">hub.docker.com/u/pauloklaus</a></li>
+                </ul>
             </b-col>
         </b-row>
 
@@ -186,7 +191,7 @@ export default {
     margin: 10px 0;
 }
 #info h4 {
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 20px;
     text-transform: uppercase;
     color: var(--primary);
