@@ -1,14 +1,14 @@
 <template>
     <b-row>
         <b-col md="6" lg="4" class="px-4 mb-5">
-            <h4 class="font-weight-bold">RealState Concept</h4>
-            <p><a href="https://realstate-concept.pages.dev" target="_blank">realstate-concept.pages.dev</a>
+            <h4 class="font-weight-bold">RealEstate Concept</h4>
+            <p><a href="https://realestate-concept.pages.dev" target="_blank">realestate-concept.pages.dev</a>
             <br><b-badge variant="warning">webapp</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
 
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
-                    <a href="https://realstate-concept.pages.dev" target="_blank">
-                        <cl-img src="portfolio/realstate-concept-app.png" class="card-width-image" />
+                    <a href="https://realestate-concept.pages.dev" target="_blank">
+                        <cl-img src="portfolio/realestate-concept-app.png" class="card-width-image" />
                     </a>
                 </div>
                 Click/touch to browse

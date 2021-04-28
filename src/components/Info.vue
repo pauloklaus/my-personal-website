@@ -78,7 +78,7 @@
                         <br>to the <a href="https://pwn2.win/2019">Pwn2Win CTF 2019</a>
                     </li>
                     <li>
-                        <a href="https://github.com/pauloklaus/realstate-concept">@realstate-concept</a>
+                        <a href="https://github.com/pauloklaus/realestate-concept">@realestate-concept</a>
                         <br>projeto conceitual para explorar recursos do VueJS
                     </li>
                 </ul>
@@ -109,12 +109,12 @@
         <b-row>
             <b-col md="8">
                 <ul>
-                    <li><strong>Realstate Concept</strong>
+                    <li><strong>RealEstate Concept</strong>
                     <br>Projeto conceitual para listar, pesquisar e selecionar imóveis para compartilhá-los através de um link.
                     <br>Feito em VueJS com VueX, VueRouter, Bootstrap, Firebase (realtime database e storage) e meu próprio componente <a href="https://www.npmjs.com/package/psk-copyandshare">psk-copyandshare</a> disponível via npm.
                     <br>
-                    <br>Código fonte: <a href="https://github.com/pauloklaus/realstate-concept">github.com/pauloklaus/realstate-concept</a>
-                    <br>Publicado via <a href="https://pages.cloudflare.com">Cloudflare Pages</a>: <a href="https://realstate-concept.pages.dev">realstate-concept.pages.dev</a>
+                    <br>Código fonte: <a href="https://github.com/pauloklaus/realestate-concept">github.com/pauloklaus/realestate-concept</a>
+                    <br>Publicado via <a href="https://pages.cloudflare.com">Cloudflare Pages</a>: <a href="https://realestate-concept.pages.dev">realestate-concept.pages.dev</a>
                     </li>
 
                     <li><strong>EpicLeetTeam (equipe de segurança da informação)</strong>
