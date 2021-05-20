@@ -4,10 +4,10 @@
         <div id="navbar-content" class="d-flex align-items-top">
             <div class="flex-fill text-truncate">pauloklaus.com.br</div>
             <div id="social-links" class="text-nowrap">
-                <a href="https://linkedin.com/in/pauloklaus"><cl-img src="social/linkedin.png" /></a>
-                <a href="https://github.com/pauloklaus"><cl-img src="social/github.png" /></a>
-                <a href="https://twitter.com/pauloklaus"><cl-img src="social/twitter.png" /></a>
-                <a href="mailto:contato@pauloklaus.com.br"><cl-img src="social/mail.png" /></a>
+                <a href="https://linkedin.com/in/pauloklaus"><RepositoryImage src="social/linkedin.png" /></a>
+                <a href="https://github.com/pauloklaus"><RepositoryImage src="social/github.png" /></a>
+                <a href="https://twitter.com/pauloklaus"><RepositoryImage src="social/twitter.png" /></a>
+                <a href="mailto:contato@pauloklaus.com.br"><RepositoryImage src="social/mail.png" /></a>
             </div>
         </div>
         <div id="navbar-tabs" class="text-nowrap px-3">
@@ -20,10 +20,10 @@
 </template>
 
 <script>
-import CloudinaryImage from "@/components/CloudinaryImage"
+import RepositoryImage from "@/components/RepositoryImage"
 
 export default {
-    components: { clImg: CloudinaryImage }
+    components: { RepositoryImage }
 }
 </script>
 
