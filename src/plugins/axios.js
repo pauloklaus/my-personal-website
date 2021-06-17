@@ -23,18 +23,18 @@ http.interceptors.response.use(
     function(error) {
         if (error.response) {
             if (error.response.status === httpstatus.NOT_FOUND)
-                error.message =  "Recurso não encontrado.";
+                error.message = "Recurso não encontrado.";
             else if (error.response.status === httpstatus.FORBIDDEN)
-                error.message = "Não foi possível acessar o recurso solicitado.";
+                error.message = "Sem permissão para acessar o recurso solicitado.";
+            else if (error.response.status === httpstatus.METHOD_NOT_ALLOWED)
+                error.message = "Falha ao acessar o recurso solicitado.";
             else if (error.response.data && error.response.data.message)
                 error.message =  error.response.data.message;
             else
                 error.message =  "Erro na operação solicitada.";
         }
-        else if (error.message) {
-            if (error.message == "Network Error")
-                error.message = "Não foi possível acessar o servidor.";
-        }
+        else if (error?.message === "Network Error")
+            error.message = "Erro ao acessar o servidor.";
         else
             error.message = "Erro na operação solicitada.";
 
@@ -42,15 +42,14 @@ http.interceptors.response.use(
     }
 );
 
-Plugin.install = function(Vue) {
-    Object.defineProperties(Vue.prototype, {
-        $http: {
-            get() {
-                return http;
+Vue.use({
+    install(Vue) {
+        Object.defineProperties(Vue.prototype, {
+            $http: {
+                get() {
+                    return http;
+                }
             }
-        }
-    });
-};
-
-Vue.use(Plugin);
-export default Plugin;
+        });
+    }
+});
