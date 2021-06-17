@@ -27,7 +27,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #navbar {
     font-size: 1.3em;
     font-weight: bold;
