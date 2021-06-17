@@ -2,15 +2,17 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 
-import "./resources/axios";
-import "./resources/bootstrap-vue";
-import "./resources/vue-lazyload";
+import "./plugins/axios";
+import "./plugins/bootstrap-vue";
+import "./plugins/vue-lazyload";
 
-import "./resources/psk-inputsearch";
-import "./resources/psk-copyandshare";
-import "./resources/psk-buttonmenu";
-import "./resources/psk-loadingbar";
-import "./resources/psk-typewriter";
+import "./plugins/psk-inputsearch";
+import "./plugins/psk-copyandshare";
+import "./plugins/psk-buttonmenu";
+import "./plugins/psk-loadingbar";
+import "./plugins/psk-typewriter";
+
+import "./assets/css/base.css";
 
 Vue.config.productionTip = false;
 
