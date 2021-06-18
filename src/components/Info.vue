@@ -4,110 +4,65 @@
 
         <b-row>
             <b-col md="8">
-                <h4>Trabalhos Recentes</h4>
+                <h4>Atividades Recentes/Mais Relevantes</h4>
                 <ul>
                     <li>
-                        <strong>Phbit - Sistema Web para Gestão de Corretoras de Seguro</strong>
+                        <strong>Sistema GESTÃO DE CORRETORAS DE SEGURO</strong>
                         <br><a href="https://www.nexseg.com.br">nexseg.com.br</a>
-                        <br><i>Junho de 2020 até hoje</i>
+                        <br><i>Junho de 2020</i>
 
-                        <p>Montagem e manutenção da infraestrutura (ubuntu server):
+                        <p><u>Definição, instalação e configuração da infraestrutura (base linux)</u>:
                         <br>Servidor de Backend OpenJDK 14.0.1
                         <br>Servidor de Frontend Apache, Letsencrypt
                         <br>Servidor de Banco de dados PostgreSQL</p>
 
-                        <p>Programação:
-                        <br>Frontend VueJS, API/REST</p>
+                        <p><u>Programação</u>:
+                        <br>Frontend com VueJS, HTML, CSS, JS, Bootstrap, consumindo API/REST</p>
                     </li>
 
                     <li>
-                        <strong>Phbit - Sistema Web para Vistorias de Seguros Nexsin</strong>
+                        <strong>Sistema VISTORIA DE SEGUROS </strong>
                         <br><a href="https://www.phbit.com.br">phbit.com.br</a>
-                        <br><i>Setembro de 2015 até hoje</i>
+                        <br><i>Setembro de 2015</i>
 
-                        <p>Montagem e manutenção da infraestrutura (ubuntu server):
+                        <p><u>Definição, instalação e configuração da infraestrutura (base linux)</u>:
                         <br>Servidor de Aplicação Apache, Letsencrypt, PHP
                         <br>Servidor de Banco de Dados MySQL
                         <br>Servidor de Agendamentos Cron, PHP</p>
 
-                        <p>Programação:
-                        <br>Backend PHP
-                        <br>Frontend PHP, TWIG, HTML, CSS, JS, jQuery
-                        <br>Banco de dados MySQL</p>
-
-                        <p>Tecnologias/conceitos aplicados:
-                        <br>API/REST, arquivos armazenados em object storage</p>
+                        <p><u>Programação</u>:
+                        <br>PHP, TWIG, HTML, CSS, JS, JQUERY, Uikit, API/REST, MySQL, ObjectStorage</p>
                     </li>
                     
                     <li>
-                        <strong>Prefeitura de Chapecó</strong>
+                        <strong>Sistema GERENCIAMENTO BALCÃO DE EMPREGOS</strong>
                         <br><a href="https://www.chapeco.sc.gov.br">chapeco.sc.gov.br</a>
-                        <br><i>Setembro de 2002 até hoje</i>
+                        <br><i>Fevereiro 2012</i>
 
-                        <p>Network Admin / SysAdmin Linux (atual)
-                        <br>Sistema para gestão de candidatos e vagas do Balcão de Empregos (PHP, MySQL)
-                        <br>Criação e manutenção de sistemas administrativos (PHP, MySQL, Mumps)</p>
+                        <p><u>Definição, instalação e configuração da infraestrutura (base linux)</u>:
+                        <br>Apache, PHP, Mysql</p>
+
+                        <p><u>Programação</u>:
+                        <br>PHP, MySQL, HTML, CSS, JS, JQUERY, Bootstrap</p>
                     </li>
                 </ul>
-            </b-col>
 
-            <b-col>
-                <h4>Habilidades</h4>
-                <p>#vuejs #php #twig #html #css #js #jquery #bootstrap #uikit #sql #nosql #firebase #git #linux #ssh #shell #shellscript #openvpn #cloudflare #digitalocean</p>
-
-                <h4>Projetos Relevantes</h4>
+                <h4>Cursos/Graduações</h4>
                 <ul>
-                    <li>
-                        <a href="https://github.com/pauloklaus/psk-inputsearch">@psk-inputsearch</a>
-                        <br>autocomplete vue component
-                    </li>
-                    <li>
-                        <a href="https://github.com/pauloklaus/psk-copyandshare">@psk-copyandshare</a>
-                        <br>copy text vue component
-                    </li>
-                    <li>
-                        <a href="https://github.com/pauloklaus/psk-typewriter">@psk-typewriter</a>
-                        <br>typewriter simulator vue component
-                    </li>
-                    <li>
-                        <a href="https://github.com/pauloklaus/sgle-game">@sgle-game</a>
-                        <br>to the <a href="https://pwn2.win/2018">Pwn2Win CTF 2018</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/pauloklaus/astrobot-game">@astrobot-game</a>
-                        <br>to the <a href="https://pwn2.win/2019">Pwn2Win CTF 2019</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/pauloklaus/realestate-concept">@realestate-concept</a>
-                        <br>projeto conceitual para explorar recursos do VueJS
-                    </li>
+                    <li><strong>Escola Superior de Redes/RNP / Convênio UFRGS</strong>
+                    <br>Gerência de Redes de Computadores
+                    <br>2010</li>
+
+                    <li><strong>Universidade do Contestado / Convênio UFSC/SC</strong>
+                    <br>Especialização em Redes de Computadores e Sistemas Distribuídos
+                    <br>2001 - 2002</li>
+
+                    <li><strong>Universidade do Contestado (Concórdia/SC)</strong>
+                    <br>Bacharel em Sistemas de Informação
+                    <br>1998 - 2001</li>
                 </ul>
 
-                <h4>Imagens no Docker Hub</h4>
-                <ul>
-                    <li><a href="https://hub.docker.com/u/pauloklaus">hub.docker.com/u/pauloklaus</a></li>
-                </ul>
-            </b-col>
-        </b-row>
-
-        <h4>Cursos/Graduações</h4>
-        <ul>
-            <li><strong>Escola Superior de Redes/RNP / Convênio UFRGS</strong>
-            <br>Gerência de Redes de Computadores
-            <br>2010</li>
-
-            <li><strong>Universidade do Contestado / Convênio UFSC/SC</strong>
-            <br>Especialização em Redes de Computadores e Sistemas Distribuídos
-            <br>2001 - 2002</li>
-
-            <li><strong>Universidade do Contestado (Concórdia/SC)</strong>
-            <br>Bacharel em Sistemas de Informação
-            <br>1998 - 2001</li>
-        </ul>
-
-        <h4>Outras Atuações</h4>
-        <b-row>
-            <b-col md="8">
+                <h4>Outras Atuações</h4>
                 <ul>
                     <li><strong>RealEstate Concept</strong>
                     <br>Projeto conceitual para listar, pesquisar e selecionar imóveis para compartilhá-los através de um link.
@@ -147,9 +102,62 @@
                     <br>Manutenção em Redes de Computadores
                     <br>Manutenção Servidor Dell/RedHat/Oracle</li>
                 </ul>
+
+                <h4>Voltando ainda mais no tempo :)</h4>
+                <ul>
+                    <li>
+                        Cadastro de Produtos para comércios/lojas (2000)
+                        <br>#Clipper53
+                    </li>
+                    <li>
+                        Publicação de conteúdos de licitações, (1999, estágio)
+                        <br>Setor de Compras da <a href="https://www.embrapa.br/suinos-e-aves">Embrapa Suínos e Aves</a>
+                        <br>#Html #CSS #JS
+                    </li>
+                    <li>
+                        Sistema para Auto Escolas (1998)
+                        <br>#Clipper53 <a href="https://github.com/pauloklaus/autoescola">github</a>
+                    </li>
+                </ul>
             </b-col>
 
             <b-col>
+                <h4>Habilidades</h4>
+                <p>#vuejs #php #twig #html #css #js #jquery #bootstrap #uikit #sql #nosql #firebase #git #linux #ssh #shell #shellscript #openvpn #cloudflare #digitalocean</p>
+
+                <h4>Projetos Relevantes</h4>
+                <ul>
+                    <li>
+                        <a href="https://github.com/pauloklaus/psk-inputsearch">@psk-inputsearch</a>
+                        <br>autocomplete vue component
+                    </li>
+                    <li>
+                        <a href="https://github.com/pauloklaus/psk-copyandshare">@psk-copyandshare</a>
+                        <br>copy text vue component
+                    </li>
+                    <li>
+                        <a href="https://github.com/pauloklaus/psk-typewriter">@psk-typewriter</a>
+                        <br>typewriter simulator vue component
+                    </li>
+                    <li>
+                        <a href="https://github.com/dataplain/repositoryimage">@dataplain/repositoryimage</a>
+                        <br>repository image
+                    </li>
+                    <li>
+                        <a href="https://github.com/dataplain/notifymessage">@dataplain/notifymessage</a>
+                        <br>popup notify message
+                    </li>
+                    <li>
+                        <a href="https://github.com/dataplain/timeoutmessage">@dataplain/timeoutmessage</a>
+                        <br>timeout message with a countdown progressbar
+                    </li>
+                </ul>
+
+                <h4>Imagens públicas no Docker Hub</h4>
+                <ul>
+                    <li><a href="https://hub.docker.com/u/pauloklaus">hub.docker.com/u/pauloklaus</a></li>
+                </ul>
+
                 <ul>
                     <li>Desenvolvimento de websites em VueJS e Bootstrap
                     <br><a href="https://nexseg.com.br">https://nexseg.com.br</a>
@@ -161,23 +169,6 @@
                 </ul>
             </b-col>
         </b-row>
-
-        <h4>Voltando ainda mais no tempo :)</h4>
-        <ul>
-            <li>
-                Cadastro de Produtos para comércios/lojas (2000)
-                <br>#Clipper53
-            </li>
-            <li>
-                Publicação de conteúdos de licitações, (1999, estágio)
-                <br>Setor de Compras da <a href="https://www.embrapa.br/suinos-e-aves">Embrapa Suínos e Aves</a>
-                <br>#Html #CSS #JS
-            </li>
-            <li>
-                Sistema para Auto Escolas (1998)
-                <br>#Clipper53 <a href="https://github.com/pauloklaus/autoescola">github</a>
-            </li>
-        </ul>
     </div>
 </template>
 
