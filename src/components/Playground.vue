@@ -3,6 +3,7 @@
         <h2 class="font-weight-bold p-2">Vue Components</h2>
 
         <b-row class="mb-4">
+
             <b-col md="6" lg="4" class="px-4 mt-4">
                 <h4 class="font-weight-bold">InputSearch</h4>
                 <p><a href="https://github.com/pauloklaus/psk-inputsearch">github.com/pauloklaus/psk-inputsearch</a></p>
@@ -14,6 +15,13 @@
                 <p><a href="https://github.com/pauloklaus/psk-copyandshare">github.com/pauloklaus/psk-copyandshare</a></p>
 
                 <CopyAndShare />
+            </b-col>
+
+            <b-col md="6" lg="4" class="px-4 mt-4">
+                <h4 class="font-weight-bold">TypeWriter</h4>
+                <p><a href="https://github.com/pauloklaus/psk-typewriter">github.com/pauloklaus/psk-typewriter</a></p>
+
+                <TypeWriter />
             </b-col>
 
             <b-col md="6" lg="4" class="px-4 mt-4">
@@ -32,13 +40,6 @@
 
                 <p>Custom background and foreground color:
                 <my-loading-bar bgClass="bg-success" fgClass="bg-white" /></p>
-            </b-col>
-
-            <b-col md="6" lg="4" class="px-4 mt-4">
-                <h4 class="font-weight-bold">TypeWriter</h4>
-                <p><a href="https://github.com/pauloklaus/psk-typewriter">github.com/pauloklaus/psk-typewriter</a></p>
-
-                <TypeWriter />
             </b-col>
         </b-row>
 
@@ -68,10 +69,10 @@
 </template>
 
 <script>
+import TypeWriter from "@/components/Playground/TypeWriter";
 import InputSearch from "@/components/Playground/InputSearch";
 import CopyAndShare from "@/components/Playground/CopyAndShare";
 import ButtonMenu from "@/components/Playground/ButtonMenu";
-import TypeWriter from "@/components/Playground/TypeWriter";
 import TimeoutMessage from "@/components/Playground/TimeoutMessage";
 import NotifyMessage from "@/components/Playground/NotifyMessage";
 
