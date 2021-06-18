@@ -4,10 +4,10 @@
         <div id="navbar-content" class="d-flex align-items-top">
             <div class="flex-fill text-truncate">pauloklaus.com.br</div>
             <div id="social-links" class="text-nowrap">
-                <a href="https://linkedin.com/in/pauloklaus"><RepositoryImage src="social/linkedin.png" /></a>
-                <a href="https://github.com/pauloklaus"><RepositoryImage src="social/github.png" /></a>
-                <a href="https://twitter.com/pauloklaus"><RepositoryImage src="social/twitter.png" /></a>
-                <a href="mailto:contato@pauloklaus.com.br"><RepositoryImage src="social/mail.png" /></a>
+                <a href="https://linkedin.com/in/pauloklaus"><MyRepositoryImage src="social/linkedin.png" /></a>
+                <a href="https://github.com/pauloklaus"><MyRepositoryImage src="social/github.png" /></a>
+                <a href="https://twitter.com/pauloklaus"><MyRepositoryImage src="social/twitter.png" /></a>
+                <a href="mailto:contato@pauloklaus.com.br"><MyRepositoryImage src="social/mail.png" /></a>
             </div>
         </div>
         <div id="navbar-tabs" class="text-nowrap px-3">

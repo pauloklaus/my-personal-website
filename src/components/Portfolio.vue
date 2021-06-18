@@ -8,7 +8,7 @@
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
                     <a href="https://realestate-concept.pages.dev" target="_blank">
-                        <RepositoryImage src="portfolio/realestate-concept-app.jpg" class="card-width-image" />
+                        <MyRepositoryImage src="portfolio/realestate-concept-app.jpg" class="card-width-image" />
                     </a>
                 </div>
                 Click/touch to browse
@@ -25,7 +25,7 @@
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
                     <a href="https://www.phbit.com.br" target="_blank">
-                        <RepositoryImage src="portfolio/phbit-website.jpg" class="card-width-image" />
+                        <MyRepositoryImage src="portfolio/phbit-website.jpg" class="card-width-image" />
                     </a>
                 </div>
                 Click/touch to browse
@@ -40,7 +40,7 @@
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
                     <a href="https://www.nexseg.com.br" target="_blank">
-                        <RepositoryImage src="portfolio/nexseg-website.jpg" class="card-width-image" />
+                        <MyRepositoryImage src="portfolio/nexseg-website.jpg" class="card-width-image" />
                     </a>
                 </div>
                 Click/touch to browse
@@ -81,7 +81,7 @@
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
                     <a href="https://www.affianceconsorcios.com.br">
-                        <RepositoryImage src="portfolio/affiance-consorcios-website.jpg" class="card-width-image" />
+                        <MyRepositoryImage src="portfolio/affiance-consorcios-website.jpg" class="card-width-image" />
                     </a>
                 </div>
                 Click/touch to browse
@@ -96,7 +96,7 @@
             <div class="portfolio-link text-center text-muted small">
                 <div class="card-preview">
                     <a href="https://www.dataplain.com.br">
-                        <RepositoryImage src="portfolio/dataplain-website.jpg" class="card-width-image" />
+                        <MyRepositoryImage src="portfolio/dataplain-website.jpg" class="card-width-image" />
                     </a>
                 </div>
                 Click/touch to browse
