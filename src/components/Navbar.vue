@@ -19,14 +19,6 @@
     </div>
 </template>
 
-<script>
-import RepositoryImage from "@/components/RepositoryImage"
-
-export default {
-    components: { RepositoryImage }
-}
-</script>
-
 <style scoped>
 #navbar {
     font-size: 1.3em;

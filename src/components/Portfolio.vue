@@ -117,11 +117,10 @@
 </template>
 
 <script>
-import RepositoryImage from "@/components/RepositoryImage";
 import Gallery from "@/components/Gallery";
 
 export default {
-    components: { Gallery, RepositoryImage },
+    components: { Gallery },
     data() {
         return {
             nexsegAppImages: [
