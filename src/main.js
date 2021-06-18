@@ -11,6 +11,11 @@ import "./plugins/psk-copyandshare";
 import "./plugins/psk-buttonmenu";
 import "./plugins/psk-loadingbar";
 import "./plugins/psk-typewriter";
+import "./plugins/notify-message";
+import "./plugins/timeout-message";
+import "./plugins/repository-image";
+
+import "./resources/eventbus";
 
 import "./assets/css/base.css";
 
