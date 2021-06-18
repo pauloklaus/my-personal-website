@@ -45,7 +45,6 @@ export default {
     overflow-y: auto;
 }
 .notify-bg {
-    opacity: 90%;
     box-shadow: 0 0 20px black;
 }
 </style>
