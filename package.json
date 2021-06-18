@@ -1,6 +1,6 @@
 {
     "name": "my-website",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "description": "My personal website.",
     "author": {
         "name": "Paulo Sergio Klaus",
@@ -22,7 +22,7 @@
     "dependencies": {
         "@dataplain/notifymessage": "^0.2.0",
         "@dataplain/repositoryimage": "^0.3.0",
-        "@dataplain/timeoutmessage": "^0.1.3",
+        "@dataplain/timeoutmessage": "^0.1.4",
         "axios": "^0.21.1",
         "bootstrap": "^4.6.0",
         "bootstrap-vue": "^2.21.2",

@@ -49,7 +49,7 @@
                 <h4 class="font-weight-bold">TimeoutMessage</h4>
                 <p><a href="https://github.com/dataplain/timeoutmessage">github.com/dataplain/timeoutmessage</a></p>
 
-                <my-timeout-message value="Message test" timeout="10" />
+                <TimeoutMessage />
             </b-col>
 
             <b-col md="6" lg="4" class="px-4 mt-4">
@@ -72,10 +72,11 @@ import InputSearch from "@/components/Playground/InputSearch";
 import CopyAndShare from "@/components/Playground/CopyAndShare";
 import ButtonMenu from "@/components/Playground/ButtonMenu";
 import TypeWriter from "@/components/Playground/TypeWriter";
+import TimeoutMessage from "@/components/Playground/TimeoutMessage";
 import NotifyMessage from "@/components/Playground/NotifyMessage";
 
 export default {
-    components: { InputSearch, CopyAndShare, ButtonMenu, TypeWriter, NotifyMessage }
+    components: { InputSearch, CopyAndShare, ButtonMenu, TypeWriter, TimeoutMessage, NotifyMessage }
 }
 </script>
 
