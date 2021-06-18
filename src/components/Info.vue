@@ -153,19 +153,17 @@
                     </li>
                 </ul>
 
-                <h4>Imagens públicas no Docker Hub</h4>
-                <ul>
-                    <li><a href="https://hub.docker.com/u/pauloklaus">hub.docker.com/u/pauloklaus</a></li>
-                </ul>
-
                 <ul>
                     <li>Desenvolvimento de websites em VueJS e Bootstrap
                     <br><a href="https://nexseg.com.br">https://nexseg.com.br</a>
                     <br><a href="https://phbit.com.br">https://phbit.com.br</a>
-                    <br><a href="https://dataplain.com.br">https://dataplain.com.br</a></li>
-                    
-                    <li>Desenvolvimento de websites em PHP, HTML, CSS, JS
+                    <br><a href="https://dataplain.com.br">https://dataplain.com.br</a>
                     <br><a href="https://affianceconsorcios.com.br">https://affianceconsorcios.com.br</a></li>
+                </ul>
+
+                <h4>Imagens públicas no Docker Hub</h4>
+                <ul>
+                    <li><a href="https://hub.docker.com/u/pauloklaus">hub.docker.com/u/pauloklaus</a></li>
                 </ul>
             </b-col>
         </b-row>
