@@ -1,8 +1,8 @@
 <template>
     <div>
-        <b-button class="mr-2" variant="primary" @click="start" :disabled="processRunning">Start a process</b-button>
-        <b-button class="mr-2" variant="danger" @click="stop" :disabled="!processRunning">Stop now!</b-button>
-        <b-button class="mr-2" variant="warning" @click="action">Notify</b-button>
+        <b-button class="mr-2" variant="primary" @click="startProcess" :disabled="processRunning">Start a process</b-button>
+        <b-button class="mr-2" variant="danger" @click="stopProcess" :disabled="!processRunning">Stop now!</b-button>
+        <b-button class="mr-2" variant="warning" @click="startEphemeral">Notify</b-button>
     </div>
 </template>
 
@@ -19,19 +19,26 @@ export default {
         })
     },
     methods: {
-        start() {
+        startProcess() {
             this.$eventbus.$emit("message", "Wait a moment...");
         },
-        stop() {
+        stopProcess() {
             this.$eventbus.$emit("message", "");
         },
-        action() {
+        startEphemeral() {
             this.$eventbus.$emit("ephemeral", "I'm an ephemeral notification.");
 
             setTimeout(() => {
-                this.$eventbus.$emit("ephemeral", "");
+                this.stopEphemeral();
             }, 3000);
+        },
+        stopEphemeral() {
+            this.$eventbus.$emit("ephemeral", "");
         }
+    },
+    beforeDestroy() {
+        this.stopProcess();
+        this.stopEphemeral();
     }
 }
 </script>
