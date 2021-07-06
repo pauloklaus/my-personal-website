@@ -129,27 +129,28 @@
                 <ul>
                     <li>
                         <a href="https://github.com/pauloklaus/psk-inputsearch">@psk-inputsearch</a>
-                        <br>autocomplete vue component
+                        <br>componente autocompletar via api
                     </li>
                     <li>
                         <a href="https://github.com/pauloklaus/psk-copyandshare">@psk-copyandshare</a>
-                        <br>copy text vue component
+                        <br>componente para copiar texto/link
                     </li>
                     <li>
                         <a href="https://github.com/pauloklaus/psk-typewriter">@psk-typewriter</a>
-                        <br>typewriter simulator vue component
+                        <br>simulador de digitação de texto
                     </li>
                     <li>
                         <a href="https://github.com/dataplain/repositoryimage">@dataplain/repositoryimage</a>
-                        <br>repository image
+                        <br>exibir imagem de um repositório
                     </li>
                     <li>
                         <a href="https://github.com/dataplain/notifymessage">@dataplain/notifymessage</a>
-                        <br>popup notify message
+                        <br>mensagens de notificação
                     </li>
                     <li>
                         <a href="https://github.com/dataplain/timeoutmessage">@dataplain/timeoutmessage</a>
-                        <br>timeout message with a countdown progressbar
+                        <br>contador regressivo com barra de progresso
+                    </li>
                     </li>
                 </ul>
 
@@ -163,7 +164,11 @@
 
                 <h4>Imagens públicas no Docker Hub</h4>
                 <ul>
-                    <li><a href="https://hub.docker.com/u/pauloklaus">hub.docker.com/u/pauloklaus</a></li>
+                    <li><a href="https://hub.docker.com/r/pauloklaus/vuecli">vuecli</a>
+                    <br>vue-cli instalado a partir da imagem original node:14-alpine</li>
+
+                    <li><a href="https://hub.docker.com/r/pauloklaus/phpcli">phpcli</a>
+                    <br>php-cli com diversas dependências instalado a partir da imagem do php:7.4-cli</li>
                 </ul>
             </b-col>
         </b-row>
