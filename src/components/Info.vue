@@ -151,6 +151,9 @@
                         <a href="https://github.com/dataplain/timeoutmessage">@dataplain/timeoutmessage</a>
                         <br>contador regressivo com barra de progresso
                     </li>
+                    <li>
+                        <a href="https://data-structure-example.pages.dev">data-structure-example.pages.dev</a>
+                        <br>estudo sobre estrutura de dados
                     </li>
                 </ul>
 

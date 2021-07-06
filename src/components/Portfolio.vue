@@ -1,6 +1,23 @@
 <template>
     <b-row>
         <b-col md="6" lg="4" class="px-4 mb-5">
+            <h4 class="font-weight-bold">Data Structure Example</h4>
+            <p><a href="https://data-structure-example.pages.dev" target="_blank">data-structure-example.pages.dev</a>
+            <br><b-badge variant="warning">webapp</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
+
+            <div class="portfolio-link text-center text-muted small">
+                <div class="card-preview">
+                    <a href="https://data-structure-example.pages.dev" target="_blank">
+                        <MyRepositoryImage src="portfolio/data-structure-example-app.jpg" class="card-width-image" />
+                    </a>
+                </div>
+                Click/touch to browse
+            </div>
+
+            <p class="text-muted mt-3">Projeto para estudo de estrutura de dados.</p>
+        </b-col>
+
+        <b-col md="6" lg="4" class="px-4 mb-5">
             <h4 class="font-weight-bold">RealEstate Concept</h4>
             <p><a href="https://realestate-concept.pages.dev" target="_blank">realestate-concept.pages.dev</a>
             <br><b-badge variant="warning">webapp</b-badge> <b-badge variant="success">on line</b-badge> <b-badge variant="danger">vuejs</b-badge></p>
